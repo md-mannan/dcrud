@@ -30,7 +30,7 @@ $student=new Student();
               'return_type'=>'single'
             );
               $limit=array('start'=>'2','limit'=>'5');
-              $studentData=$student->select($table,$limit);
+              $studentData=$student->select($table,$order_by);
            
             ?>
 
